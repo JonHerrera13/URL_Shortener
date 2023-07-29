@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shortened URL</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<div class="result">
+<body>
+    <h1>Shortened URL:</h1>
+    <div class="shortened-link">
+        <a href="{{ short_url }}">{{ short_url }}</a>
+    </div>
+</div>
+</body>
+</html>

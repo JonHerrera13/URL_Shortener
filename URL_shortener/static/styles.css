@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Reset default body margin */
+    display: grid;
+    place-items: center;
+    min-height: 100vh; /* Ensures the content takes up at least the full viewport height */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+  }
+  
+  .container {
+    max-width: 600px; /* Optional: Limit the width of the content container */
+    margin: 50px;
+    padding: 50px;
+    background-color: #ffffff; /* Optional: Add a background color to the content container */
+    border-radius: 8px; /* Optional: Add border radius to the content container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow to the container */
+  
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    display: grid;
+    place-items: center;
+  }
+  
+  form {
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+}
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures the padding is included in the total width */
+
+  }
+  
+  input[type="submit"] {
+    display: grid; /* Display the submit button as a block element */
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #0b44df;
+    color: white;
+    border: none;
+    cursor: pointer;
+    place-items: center;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5945a0;
+  }
+  
+  a {
+    color: #002fff;
+    text-decoration: none;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content horizontally */
+  }
+
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .shortened-link {
+  display: grid;
+  place-items: left;
+    margin: 20px 0;
+  
+  }
+
+
+  
